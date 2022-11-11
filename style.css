@@ -1,0 +1,107 @@
+/* General Style */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-weight: 400;
+  font-family: 'Smythe', cursive;
+  background-color: gray;
+}
+
+/* ------ */
+
+.app-container {
+  border: 1px solid green;
+  width: 600px;
+  height: 1160px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+/* Header */
+
+.header {
+  color: white;
+  height: 170px;
+  background-image: url("img/img.png");
+  padding: 46px;
+}
+
+.header-title {
+  margin: 0;
+  font-size: 39px;
+  line-height: 24px;
+}
+
+.header-subtitle {
+  margin-top: 20px;
+  font-size: 22px;
+  line-height: 14px;
+}
+
+
+/* Menu Section */
+
+.main-menu {
+  width: 510px;
+  margin: 0 auto;
+  padding-top: 35px;
+}
+
+.item-container {
+  /* didnt create a container so ill just use margin and center */
+  margin: 0 auto;
+  width: 508px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #D2D2D2;
+  margin-bottom: 45px;
+}
+
+.item-emoji {
+  display: flex;
+  width: 70px;
+  height: 80px;
+  font-size: 45px;
+}
+
+.item-info { 
+  margin: 0;
+}
+
+.item-name,
+.item-desc,
+.item-price {
+  margin: 10px 0;
+  font-weight: inherit;
+}
+
+.item-name {
+  font-size: 28px;
+  line-height: 17px;
+  color: #000;
+}
+
+.item-desc {
+  font-size: 16px;
+  line-height: 17px;
+  color: #8B8B8B;
+}
+
+.item-price {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.add-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1.5px solid #DEDEDE;
+  font-size: 20px;
+  margin-left: auto;
+}
